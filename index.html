@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>白怡夫 | AI 产品经理</title>
+    <meta name="description" content="白怡夫的个人简历网站，聚焦 C 端 AI 产品、音乐创作工具与 B 端落地经验。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+    <canvas class="music-canvas" id="music-canvas" aria-hidden="true"></canvas>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+    <div class="glow glow-a" aria-hidden="true"></div>
+    <div class="glow glow-b" aria-hidden="true"></div>
+
+    <header class="top-nav" id="top">
+      <a class="logo" href="#top">白怡夫 / AI 产品</a>
+      <nav>
+        <a href="#experience">工作</a>
+        <a href="#work">项目</a>
+        <a href="#lookbook">视觉</a>
+        <a href="#process">流程</a>
+        <a href="#value">优势</a>
+        <a href="#contact">联系</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="fx-toggle" id="fx-toggle" type="button" aria-pressed="true">FX ON</button>
+        <a class="mini-cta" href="#contact">聊聊机会</a>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="hero reveal tilt" id="hero">
+        <p class="eyebrow">C 端 AI 产品经理 · 0-1 可落地</p>
+        <h1>把复杂 AI 能力，做成
+          <span>普通用户愿意持续使用</span>
+          的产品。
+        </h1>
+        <p class="lead">1 年+产品经验，主线是 C 端 AI 产品，兼顾 B 端复杂场景协同。正在推进 ChordFlow/ChordSnap：从用户访谈、产品定义到 MVP 联调与指标验证。</p>
+
+        <div class="hero-actions">
+          <a class="btn primary magnetic" href="#work">看项目案例</a>
+          <a class="btn ghost magnetic" href="#contact">联系我</a>
+          <a class="btn ghost magnetic" href="./resume.pdf">下载简历</a>
+        </div>
+
+        <div class="metrics">
+          <article class="metric-card">
+            <strong data-target="1">1+</strong>
+            <span>产品实战经验（年）</span>
+          </article>
+          <article class="metric-card">
+            <strong data-target="20">20+</strong>
+            <span>企业项目交付</span>
+          </article>
+          <article class="metric-card">
+            <strong data-target="300">300+</strong>
+            <span>用户反馈沉淀</span>
+          </article>
+          <article class="metric-card">
+            <strong data-target="50">50+</strong>
+            <span>可用性测试</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="brand-strip reveal">
+        <span>我擅长的场景</span>
+        <ul>
+          <li>AI 学习工具</li>
+          <li>音乐创作体验</li>
+          <li>用户增长链路</li>
+          <li>B 端需求抽象</li>
+          <li>跨团队协同交付</li>
+        </ul>
+      </section>
+
+      <section class="section reveal" id="experience">
+        <div class="section-head compact">
+          <p class="eyebrow">Work Experience</p>
+          <h2>工作经历</h2>
+        </div>
+        <div class="experience-list">
+          <article class="experience-card tilt">
+            <div class="experience-head">
+              <h3>深信服科技股份有限公司 · 售前产品经理</h3>
+              <p>2025.04 - 2026.04</p>
+            </div>
+            <p>围绕网络安全、AI、云计算核心产品线，负责苏州区域企业用户需求调研、方案设计与项目全流程落地。</p>
+            <ul>
+              <li>全流程项目交付：主导苏州区域 20+ 中大企业信息化建设项目，覆盖需求调研、场景痛点分析、产品选型、POC 测试与验收交付；2026 年 Q1 助力部门整体业绩达成率 125%，超额完成目标。</li>
+              <li>需求体系建设：搭建新老用户需求沙盘，触达苏州企业用户 8000+，从企业体量分层、产品覆盖、触达途径多个维度持续开展行业洞察与竞品分析，从客户反馈中抽象出 AI 告警聚合、安全托管等共性需求，推动产品化落地，驱动商业推动战略规划和执行。</li>
+              <li>跨团队协同：联动研发、销售、合作代理商多部门完成产品落地交付，具备跨团队需求对齐与排期管理经验。</li>
+            </ul>
+          </article>
+          <article class="experience-card tilt">
+            <div class="experience-head">
+              <h3>深圳万兴科技集团有限公司 · 视频产品经理</h3>
+              <p>2024.06 - 2024.09</p>
+            </div>
+            <ul>
+              <li>竞品调研：通过定性分析、定量数据分析等多种方法，为前台产品提供增长点数据支持赋能，输出竞品分析报告 10+，推动 3 个需求及 1 个产品立项（视频增强、TTS、视频长改短）。</li>
+              <li>产品策划：为解决中小团队创作微短剧审核量大、协同困难等问题，协助策划 2+ 个 AI 短剧 C 端审修一体化云端产品，被列入 A 级机会点。</li>
+              <li>产品迭代：针对在线视频产品的 AI 工具进行优化，协助产品经理处理需求 10+，优化用户体验流程。</li>
+              <li>数据分析：每日对 Media.IO 业务线各 SKU 商品使用及付费转换数据进行监控，以国家维度及单点钩子功能维度切入分析，累计收集 60+ 数据统计报告，依据数据提出营销及产品迭代策略，促进 PV 上升 1.79%，DAU 达 30w+。</li>
+            </ul>
+          </article>
+          <article class="experience-card tilt">
+            <div class="experience-head">
+              <h3>深圳戴乐体感科技有限公司 · 乐器产品经理</h3>
+              <p>2024.02 - 2024.06</p>
+            </div>
+            <p>负责智能吉他硬件及配套 APP 的用户研究与产品策划，服务吉他新手核心用户群体。</p>
+            <ul>
+              <li>用户研究体系搭建：制定并搭建用户研究 SOP，综合运用可用性测试、A/B 测试、焦点小组、深度访谈等方法，搭建用户研究助手与可用性测试助手 Agent，系统整理 300+ 用户反馈，完成 50+ APP 及硬件可用性测试，为硬件迭代及功能开发提供充足数据支持。</li>
+              <li>数据驱动迭代：基于用户研究数据驱动产品迭代，推动上线首月退货率下降 12.4%，帮助市场部锁定无痛吉他需求新手为核心用户，上品两个月购买率同比增长 9.8%。</li>
+              <li>产品策划：独立负责硬件架子鼓 APP 引导识别教学功能的产品策划，并参与策划 APP 2.7.0 的吉他教学功能模块设计，完成从 0-1 的方案落地，并协助搭建基础教学曲谱库 20+。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal" id="work">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Featured Work</p>
+            <h2>代表项目</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="项目筛选">
+            <button class="filter is-active" data-filter="all">全部</button>
+            <button class="filter" data-filter="c">C 端</button>
+            <button class="filter" data-filter="b">B 端</button>
+          </div>
+        </div>
+
+        <div class="work-layout">
+          <div class="cards" id="cards">
+            <article class="work-card is-active tilt" data-type="c" data-key="chordflow">
+              <p class="tag">C 端 · 在研</p>
+              <h3>ChordFlow 像素乐理助手</h3>
+              <p>围绕“歌单学乐理 + 无痛哼唱创作”构建最小闭环。</p>
+            </article>
+
+            <article class="work-card tilt" data-type="c" data-key="mediaio">
+              <p class="tag">C 端 · 实习项目</p>
+              <h3>Media.io AI 工具长改短 5.0</h3>
+              <p>围绕 URL 分享链路做流程减法，提升导出完成率与生成效率。</p>
+            </article>
+
+            <article class="work-card tilt" data-type="c" data-key="aeroband">
+              <p class="tag">C 端 · 已上线</p>
+              <h3>AeroBand 教学模块</h3>
+              <p>用用户研究驱动教学功能迭代与退货率改善。</p>
+            </article>
+
+            <article class="work-card tilt" data-type="b" data-key="tianfu">
+              <p class="tag">B 端 · 标杆项目</p>
+              <h3>天孚光通信 AI 安全方案</h3>
+              <p>需求拆解、指标定义、跨团队推进到中标交付。</p>
+            </article>
+
+            <article class="work-card tilt" data-type="b" data-key="yieryi">
+              <p class="tag">B 端 · 规模化交付</p>
+              <h3>益而益远程办公安全项目</h3>
+              <p>多认证源打通与 OAuth2 定制，最终部署 1400+ 点位。</p>
+            </article>
+
+            <article class="work-card tilt" data-type="b" data-key="suda">
+              <p class="tag">B 端 · AI 基建平台</p>
+              <h3>苏州大学算力资源池平台</h3>
+              <p>整合异构 GPU 与云管平台，支撑校内统一算力调度。</p>
+            </article>
+
+            <article class="work-card tilt" data-type="b" data-key="boteni">
+              <p class="tag">B 端 · 基础设施优化</p>
+              <h3>波特尼私有云承载与存储项目</h3>
+              <p>存算分离与资源解耦，提升可靠性与扩容能力。</p>
+            </article>
+          </div>
+
+          <aside class="detail card tilt" id="detail"></aside>
+        </div>
+      </section>
+
+      <section class="section showcase reveal" id="lookbook">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Selected Works</p>
+            <h2>摄影与 3D 作品</h2>
+          </div>
+          <p class="showcase-lead">从人像、风景到 3D 视觉，我用镜头和空间语言表达同一件事：让情绪与结构同时成立。</p>
+        </div>
+
+        <div class="gallery-controls" role="tablist" aria-label="作品筛选">
+          <button class="gallery-filter is-active" data-gallery="all">全部</button>
+          <button class="gallery-filter" data-gallery="landscape">风景</button>
+          <button class="gallery-filter" data-gallery="portrait">人像</button>
+          <button class="gallery-filter" data-gallery="cg">3D 设计</button>
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid">
+          <figure class="gallery-item wide tilt" data-gallery="landscape">
+            <img src="assets/works/landscape-01.jpg" alt="风景摄影作品：海边场景。" />
+            <figcaption><span class="cate">Landscape</span><h3>Qingdao Coastline</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tall tilt" data-gallery="portrait">
+            <img src="assets/works/portrait-01.jpg" alt="人像摄影作品：城市环境人像。" />
+            <figcaption><span class="cate">Portrait</span><h3>Urban Light</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-01.jpg" alt="Architectural render 1." />
+            <figcaption><span class="cate">3D Design</span><h3>Spatial Mood Study</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tall tilt" data-gallery="landscape">
+            <img src="assets/works/landscape-02.jpg" alt="风景摄影作品：城市旅行记录。" />
+            <figcaption><span class="cate">Landscape</span><h3>Beijing Archive</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-02.jpg" alt="Architectural render 2." />
+            <figcaption><span class="cate">3D Design</span><h3>Material & Light</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="portrait">
+            <img src="assets/works/portrait-02.jpg" alt="人像摄影作品：自然光肖像。" />
+            <figcaption><span class="cate">Portrait</span><h3>Natural Profile</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-03.jpg" alt="Architectural render 3." />
+            <figcaption><span class="cate">3D Design</span><h3>Concept Rendering</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item wide tilt" data-gallery="portrait">
+            <img src="assets/works/portrait-03.jpg" alt="人像摄影作品：情绪化构图。" />
+            <figcaption><span class="cate">Portrait</span><h3>Frame of Emotion</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tall tilt" data-gallery="landscape">
+            <img src="assets/works/landscape-03.jpg" alt="风景摄影作品：海岸线色调。" />
+            <figcaption><span class="cate">Landscape</span><h3>Blue Sequence</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-04.jpg" alt="Architectural render 4." />
+            <figcaption><span class="cate">3D Design</span><h3>Atmosphere Build</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-13.jpg" alt="Architectural render 5." />
+            <figcaption><span class="cate">3D Design</span><h3>Facade Perspective</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-14.jpg" alt="Architectural render 6." />
+            <figcaption><span class="cate">3D Design</span><h3>Public Space View</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-17.jpg" alt="Architectural render 7." />
+            <figcaption><span class="cate">3D Design</span><h3>Context Integration</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-18.jpg" alt="Architectural render 8." />
+            <figcaption><span class="cate">3D Design</span><h3>Massing & Volume</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-21.jpg" alt="Architectural render 9." />
+            <figcaption><span class="cate">3D Design</span><h3>Street-Level Scene</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="cg">
+            <img src="assets/works/cg-22.jpg" alt="Architectural render 10." />
+            <figcaption><span class="cate">3D Design</span><h3>Night Exterior</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tall tilt" data-gallery="portrait">
+            <img src="assets/works/portrait-04.jpg" alt="人像摄影作品：纪实瞬间。" />
+            <figcaption><span class="cate">Portrait</span><h3>Moment Study</h3></figcaption>
+          </figure>
+
+          <figure class="gallery-item tilt" data-gallery="landscape">
+            <img src="assets/works/landscape-04.jpg" alt="风景摄影作品：苏州上海旅拍。" />
+            <figcaption><span class="cate">Landscape</span><h3>Travel Frames</h3></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section reveal" id="process">
+        <div class="section-head compact">
+          <p class="eyebrow">Process Timeline</p>
+          <h2>我的做事流程</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <h3>01 访谈与洞察</h3>
+            <p>先抓真实用户问题，不靠想象做需求。</p>
+          </li>
+          <li>
+            <h3>02 主链路定义</h3>
+            <p>只做最关键场景，保证第一版可验证。</p>
+          </li>
+          <li>
+            <h3>03 MVP 联调</h3>
+            <p>产品、前后端、模型接口按验收指标推进。</p>
+          </li>
+          <li>
+            <h3>04 数据复盘</h3>
+            <p>围绕准确率、满意度、留存等指标迭代。</p>
+          </li>
+          <li>
+            <h3>05 持续产品化</h3>
+            <p>把可用功能延展成可增长、可商业化能力。</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section reveal" id="value">
+        <div class="section-head compact">
+          <p class="eyebrow">Value Props</p>
+          <h2>为什么我适合 AI 产品岗</h2>
+        </div>
+        <div class="value-grid">
+          <article class="tilt"><h3>用户感知强</h3><p>能从访谈里提炼真实痛点，不做伪需求。</p></article>
+          <article class="tilt"><h3>产品到交付闭环</h3><p>不是只写文档，能推进到可上线版本。</p></article>
+          <article class="tilt"><h3>AI 场景化表达</h3><p>把模型能力翻译成用户听得懂、愿意用的功能。</p></article>
+          <article class="tilt"><h3>跨团队推进</h3><p>能在研发、业务、交付之间对齐节奏和目标。</p></article>
+          <article class="tilt"><h3>兼具 C/B 视角</h3><p>C 端关注体验，B 端关注结果，能在两侧切换。</p></article>
+          <article class="tilt"><h3>快速试错</h3><p>先做最小可验证版本，再用数据做下一步。</p></article>
+        </div>
+      </section>
+
+      <section class="cta reveal tilt" id="contact">
+        <p class="eyebrow">Let’s Talk</p>
+        <h2>正在寻找：C 端 AI 产品经理机会</h2>
+        <p>也可承接 B 端 AI 应用产品。欢迎联系我聊业务场景和岗位目标。</p>
+        <div class="contact-row">
+          <span>邮箱：1158043506@qq.com</span>
+          <span>微信：ZF15277148665</span>
+          <span>城市：深圳 / 广州</span>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
